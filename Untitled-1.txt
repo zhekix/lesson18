@@ -1,0 +1,43 @@
+<div class="card">
+  <div class="image-wrapper"></div>
+  <p></p>
+  <button></button>
+</div>
+
+.card {}
+.card .image-wrapper {}
+.card p {}
+.card button {}
+
+// less, sass (scss), стилус
+
+$defaultColor = "#2b2b2b";
+
+.card {
+  // css стили
+  background: $defaultColor;
+
+  .image-wrapper {
+
+  }
+
+  p {}
+  button {
+    // стили по умолчанию
+    color: $defaultColor;
+
+    &:hover {
+      // стили при наведении
+    }
+  }
+
+  &:hover {
+    // стили при наведении на карточку
+  }
+}
+
+html
+  head
+  body
+    .card
+      
